@@ -9,10 +9,10 @@ int main(int argc, char *argv[])
 {
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
-    KLocalizedString::setApplicationDomain("helloworld");
+    KLocalizedString::setApplicationDomain("kountdown");
     QCoreApplication::setOrganizationName("KDE");
     QCoreApplication::setOrganizationDomain("kde.org");
-    QCoreApplication::setApplicationName("Hello World");
+    QCoreApplication::setApplicationName("Kountdown");
 
     QQmlApplicationEngine engine;
 
